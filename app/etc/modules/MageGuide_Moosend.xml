@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<modules>
+		<MageGuide_Moosend>
+			<active>true</active>
+			<codePool>local</codePool>
+		</MageGuide_Moosend>
+		<depends>
+            <MageGuide_W2all/>                
+        </depends>
+	</modules>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MageGuide_Moosend",
+    "type": "magento-module",
+    "license": "GNU",
+    "homepage": "",
+    "description": "moosend module",
+    "authors": [
+    {
+        "name": "MageGuide",
+        "email": "cwiser249@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

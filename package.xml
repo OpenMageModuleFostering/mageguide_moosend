@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MageGuide_Moosend</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>moosend module</summary>
+    <description>moosend module</description>
+    <notes>moosend module</notes>
+    <authors><author><name>MageGuide</name><user>Admin</user><email>cwiser249@gmail.com</email></author></authors>
+    <date>2016-01-04</date>
+    <time>11:20:34</time>
+    <contents><target name="magelocal"><dir name="MageGuide"><dir name="Moosend"><dir name="Block"><dir name="Adminhtml"><dir name="Newsletter"><file name="Subscriber.php" hash="a3d1dd594424e77cbbf15cdff7ffc6cf"/></dir><dir name="System"><dir name="Config"><file name="Form.php" hash="0e61b549405071755f864ab647a22609"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="afa97b819b59640ae62b75ef27d8714a"/></dir><dir name="Model"><file name="Callcontext.php" hash="7a3c242570bf2c7f229ab2ece2f37fc2"/><file name="Httpclient.php" hash="6d376fb3fb35f2ddd5bc17c5800048bd"/><file name="Mailinglist.php" hash="e6dae8b5bbe7e22f2854e633e29e7588"/><dir name="Moosend"><file name="Mailinglist.php" hash="72535a35294fafcbb658a229b160aee8"/><file name="Moosendsystype.php" hash="6540e596f82a3789468fc923fe0ed74e"/><file name="Website.php" hash="64d1fde189ab4bc970fcae04715fd62b"/></dir><file name="Moosendapi.php" hash="d0b32b14fefbe9ac1325614e3c91448b"/><file name="Newsletter.php" hash="30cb08df5b4f522de0fd52d4440a4965"/><file name="Observer.php" hash="ba4407dc1607c07246786069f81718bb"/><file name="Response.php" hash="2a78e742c0482e78feee8e8df3ea94f0"/><dir name="Wrappers"><file name="Mailinglistswrapper.php" hash="42d5b9187fe4edb2d80973b0a59a89eb"/><file name="Subscriberswrapper.php" hash="302517633cd5dee9eca4032c70437de2"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="MoosendController.php" hash="374fa3bb532d6358a448b5cdd9e4ee7f"/></dir></dir><dir name="etc"><file name="config.xml" hash="44e30c2de598360ec909c74373d52abc"/><file name="system.xml" hash="46b4ea6b89a79f9941c04d7d7c557578"/></dir><dir name="sql"><dir name="moosend_setup"><file name="mysql4-install-0.1.0.php" hash="b2ae05a26a9795c039989215876167c3"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="mageguide"><dir name="moosend"><dir name="newsletter"><dir name="subscriber"><file name="list.phtml" hash="dd93d47e8e988f04b17c5385818cf76d"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MageGuide_Moosend.xml" hash="01a08bfeb9dadf7190f2d8f827dfff51"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="mageguide"><file name="MageGuide_Moosend.csv" hash="81051bcc2cf1bedf378224b0a93e2877"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.5.0</min><max>6.0.0</max></php><package><name>MageGuide_W2all</name><channel>community</channel><min>0.1.0</min><max>0.1.0</max></package></required></dependencies>
+</package>
